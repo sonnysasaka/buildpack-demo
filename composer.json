@@ -1,0 +1,16 @@
+{
+    "name": "affordablemobiles/buildpack-demo",
+    "description": "Demo of using Google Cloud Buildpacks for PHP 8.3.",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^8.3"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}

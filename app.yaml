@@ -1,0 +1,4 @@
+# Hack: after https://github.com/GoogleCloudPlatform/buildpacks/pull/390/files
+# it's enough to just set NGINX_DOCUMENT_ROOT=public
+runtime_config:
+  document_root: public
